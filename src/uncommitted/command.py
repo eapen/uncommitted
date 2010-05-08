@@ -57,7 +57,7 @@ def status_git(path, ignore_set):
     """Return text lines describing the status of a Mercurial repository."""
     process = Popen(('git', 'st', '-s'), stdout=PIPE, cwd=path)
     st = process.stdout.read()
-    lines = [ l for l in st.splitlines() if not l.startswith('?') ]
+    lines = [ l for l in st.splitlines() if not l.startswith('#') ]
     return lines
 	
 def status_subversion(path, ignore_set):
