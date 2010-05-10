@@ -93,6 +93,7 @@ Changelog
 **1.2** (2010 May 08)
 
 - *Feature:* Eapen added Git support - http://eapen.in 
+- *Bug:* Changed a line in the code from "st" to "status" as pointed out by Shaun (shaunsephton) [I had an alias for 'st' before]
 
 
 **1.1** (2010 April 24)
