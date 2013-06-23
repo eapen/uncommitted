@@ -93,9 +93,9 @@ def scan(repos, verbose):
         if lines is None:  # signal that we should ignore this one
             continue
         if lines or verbose:
-            print path, '-', vcsname
+            print (path, '-', vcsname)
             for line in lines:
-                print line
+                print (line)
             print
 
 def main():
