@@ -73,16 +73,6 @@ At the moment, `uncommitted` supports:
 * `Git`_ (.git directories)
 * `Subversion`_ (.svn directories)
 
-It needs to support `Git`_ soon, since that DVCS is in widespread use.
-However, I am not familiar enough with Git's output to write a function
-for it myself.  When I tried out Git a few minutes ago, its status
-messages were crazy, with all sorts of hash characters everywhere; it
-looked like it was suffering from an acute lack of confidence, and was
-therefore commenting out all of its own output.  Anyway, there is
-probably some simple way to make Git report on uncommitted changes, but
-I will leave it to a Git fan to figure out how, if they would like to
-contribute a patch back.
-
 I would also not be opposed to someone contributing a Bazaar plugin.
 But CVS should probably never be supported by `uncommitted` because that
 might imply that it is still an acceptable system to be using.
